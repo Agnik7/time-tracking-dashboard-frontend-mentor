@@ -1,6 +1,7 @@
 [
   {
     "title": "work",
+    "image": "url('/icon-work.svg')",
     "timeframes": {
       "daily": {
         "current": 5,
@@ -18,6 +19,7 @@
   },
   {
     "title": "play",
+    "image": "url('/icon-play.svg')",
     "timeframes": {
       "daily": {
         "current": 1,
@@ -35,6 +37,7 @@
   },
   {
     "title": "study",
+    "image": "url('/icon-study.svg')",
     "timeframes": {
       "daily": {
         "current": 0,
@@ -52,6 +55,7 @@
   },
   {
     "title": "exercise",
+    "image": "url('/icon-exercise.svg')",
     "timeframes": {
       "daily": {
         "current": 1,
@@ -69,6 +73,7 @@
   },
   {
     "title": "social",
+    "image": "url('/icon-social.svg')",
     "timeframes": {
       "daily": {
         "current": 1,
@@ -86,6 +91,7 @@
   },
   {
     "title": "self-care",
+    "image": "url('/icon-self-care.svg')",
     "timeframes": {
       "daily": {
         "current": 0,

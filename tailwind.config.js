@@ -28,14 +28,6 @@ export default {
       fontFamily: {
         'rubik': ['Rubik', 'sans-serif'],
       },
-      backgroundImage:{
-        'icon-work': "url('/icon-work.svg')",
-        'icon-play': "url('/icon-play.svg')",
-        'icon-study': "url('/icon-study.svg')",
-        'icon-exercise': "url('/icon-exercise.svg')",
-        'icon-social': "url('/icon-social.svg')",
-        'icon-self-care': "url('/icon-self-care.svg')"
-      },
       backgroundPosition:{
         'top-right': 'right 0 top -10px'
       }

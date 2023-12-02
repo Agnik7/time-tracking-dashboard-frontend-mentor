@@ -16,7 +16,7 @@ function App() {
         <div className='flex flex-col w-full'>
           <div className='flex flex-col sm:grid sm:grid-cols-2 md:grid-cols-3 gap-[2rem] mb-[1rem]'>
           {data.map((item) => (
-              <Card key={item.title} type={item.title.toLowerCase()} current={item.timeframes[clicked].current} previous={item.timeframes[clicked].previous} duration={clicked}  />
+              <Card key={item.title} color="red" type={item.title.toLowerCase()} current={item.timeframes[clicked].current} previous={item.timeframes[clicked].previous} duration={clicked} image={item.image} />
             ))}
           </div>
         </div>
