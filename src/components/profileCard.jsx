@@ -10,7 +10,7 @@ export default function ProfileCard({clicked,setClicked}) {
                 <img src="/image-jeremy.png" alt="" className='w-full h-full'/>
             </div>
             <div>
-                <p className='font-light text-[14px]'>Report for</p>
+                <p className='font-light text-[14px] text-paleBlue'>Report for</p>
                 <p className='text-[1.3rem] sm:text-[2rem] font-light sm:mb-[1rem] sm:mr-[4rem]'>Jeremy Robson</p>
             </div>
         </div>

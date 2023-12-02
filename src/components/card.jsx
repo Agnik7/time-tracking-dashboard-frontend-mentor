@@ -12,7 +12,7 @@ export default function Card(props) {
       </div>
       <div className='bg-darkBlue hover:bg-desaturatedBlue relative rounded-[1rem] p-[1rem] sm:pb-[2rem] z-50'>
         <span className='sm:ml-[1rem]'>{cardName}</span>
-        <img src="/icon-ellipsis.svg" alt="" className='absolute top-6 right-8 lg:block sm:hidden' />
+        <img src="/icon-ellipsis.svg" alt="" className='absolute top-6 right-8 hover:cursor-pointer lg:block sm:block md:hidden' />
         <div className='flex sm:flex-col  w-full justify-between items-center sm:mr-[5rem] sm:pl-[0.5rem]'>
           <h1 className='text-[2.5rem] md:text-[2rem] lg:text-[3.5rem] font-light w-full'>{props.current}hrs</h1>
           <span className='font-thin  sm:text-left text-right w-full'>Last {(props.duration === 'daily')?"Day":(props.duration === 'monthly')?"Month":"Week"}-{props.previous}hrs</span>
